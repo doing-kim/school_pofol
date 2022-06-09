@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>임승이 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 폰트 적용 -->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'wwo2nir',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+
+  <!-- 부트스트랩 아이콘 적용 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+</head>
+<body>
+  <header id="top">
+    <!-- 내비게이터 -->
+    <nav>
+      <!-- 로고 -->
+      <a class="logo" href="#top"><img src="img/logo.png" alt="로고"><p>임승이</p></a>
+      <!-- 메뉴 -->
+      <ul>
+        <li><a href="#top"><i class="bi bi-house"></i></a></li>
+        <li><a href="#history"><i class="bi bi-briefcase"></i></a></li>
+        <li><a href="#skills"><i class="bi bi-gear"></i></a></li>
+        <li><a href="#projects"><i class="bi bi-tv"></i></a></li>
+        <!-- 다크모드 전환토글 -->
+        <li><i class="bi bi-moon-fill" id="toggle"></i></li>
+      </ul>
+      <!-- 다크모드로 바꿔주는 스크립트 -->
+      <script src="darkmode.js"></script>
+    </nav>
+
+    <!-- 인삿말 -->
+    <div class="greeting">
+      <img src="img/mimoticon1.png" alt="열공하는 미모티콘">
+
+      <div class="greetingText">
+        <!-- 시간대별로 다른 인삿말을 나타내는 스크립트 -->
+        <script src="greeting.js"></script>
+        <h2>안녕하세요!</h2>
+        <h2>저는 꾸준하게 노력하는</h2>
+        <h2 class="highlightText">성장형 그래픽 아티스트</h2>
+        <h2 class="highlightText">임승이 입니다.</h2>
+      </div>
+    </div>
+  </header>
+
+  <div style="clear: both"></div>
+
+  <main>
+
+    <!-- 이력 및 학력 -->
+    <div id="history">
+      <div class="container">
+        <h1>History</h1>
+        <div>
+          <h2>2018</h2>
+          <ol>
+            <li>예일디자인고등학교 졸업</li>
+            <li>홍익대학교 세종캠퍼스 영상애니메이션학부 입학</li>
+          </ol>
+        </div>
+        <div>
+          <h2>2021</h2>
+          <ol>
+            <li>하계방학 인턴쉽 주식회사 툰스퀘어</li>
+          </ol>
+        </div>
+        <div>
+          <h2>2022</h2>
+          <ol>
+            <li>주식회사 툰스퀘어 프리랜서</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!-- 스킬바  -->
+    <div id="skills">
+      <h1>Skills</h1>
+      <!-- 스킬 아이콘 -->
+      <div class="sectionA">
+        <img src="img/icon_maya.JPG" alt="마야 아이콘">
+        <img src="img/icon_nuke.png" alt="누크 아이콘">
+        <img src="img/icon_photoshop.png" alt="포토샵 아이콘">
+        <img src="img/icon_illustrator.png" alt="일러스트레이터 아이콘">
+        <img src="img/icon_html.png" alt="Html 아이콘">
+      </div>
+      <!-- 스킬 능력치 -->
+      <div class="SectionB">
+        <div class="skill">
+          <h2>Maya</h2>
+          <progress class="progress" value="80" min="0" max="100"></progress>
+        </div>
+        <div class="skill">
+          <h2>Nuke</h2>
+          <progress class="progress" value="70" min="0" max="100"></progress>
+        </div>
+        <div class="skill">
+          <h2>Photoshop</h2>
+          <progress class="progress" value="80" min="0" max="100"></progress>
+        </div>
+        <div class="skill">
+          <h2>Illustrator</h2>
+          <progress class="progress" value="50" min="0" max="100"></progress>
+        </div>
+        <div class="skill">
+          <h2>HTML/CSS</h2>
+          <progress class="progress" value="40" min="0" max="100"></progress>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 프로젝트 -->
+    <div id="projects">
+      <h1>Projects</h1>
+      <div class="project">
+        <img src="img/poster2.jpg" alt="언니의 비밀노트 포스터">
+        <h3>  2020</h3>
+        <h2 class="boxTitle">&lt;언니의 비밀노트&gt; 미술팀</h2>
+        <div class="skillBox">
+          Making
+        </div>
+        <div class="skillBox">
+          Research
+        </div>
+        <p>
+          2020 홍익대학교 졸업작품인 &lt;언니의 비밀노트&gt; 미술팀으로 참여, 다양한 소품들을 리서치하고 세트장을 꾸몄다.
+        </p>
+      </div>
+
+      <div style="clear: both"></div>
+
+      <div class="project">
+        <img src="img/poster1.JPG" alt="최선의 삶 포스터">
+        <h3>  2021</h3>
+        <h2 class="boxTitle">&lt;최선의 삶&gt; 특수효과팀</h2>
+        <div class="skillBox">
+          Nuke
+        </div>
+        <div class="skillBox">
+          Photoshop
+        </div>
+        <p>
+          2021년 개봉한 이우정 감독의 영화 &lt;최선의 삶&gt;에 특수효과팀 스텝으로 참여, 누크와 포토샵을 이용한 리무브 작업을 진행했다.
+        </p>
+      </div>
+
+      <div style="clear: both"></div>
+
+      <div class="project">
+        <div class="poster"></div>
+        <h3>  2023</h3>
+        <h2 class="boxTitle">&lt;Greedy&gt; 연출, 제작</h2>
+        <div class="skillBox">
+          Maya
+        </div>
+        <div class="skillBox">
+          Unreal
+        </div>
+        <div class="skillBox">
+          Substance Painter
+        </div>
+        <div class="skillBox">
+          Nuke
+        </div>
+        <p>
+          2023 홍익대학교 졸업작품인 &lt;Greedy&gt;의 모든 제작과정에 참여하여 3D 애니메이션을 완성했다.
+        </p>
+      </div>
+    </div>
+
+
+    <div id="webProjects">
+      <h1>Web Projects</h1>
+      <div class="webProject">
+        <h3>2021</h3>
+        <h2 class="boxTitle">고교학점제 사용설명서</h2>
+        <div class="skillBox">
+          HTML
+        </div>
+        <div class="skillBox">
+          CSS
+        </div>
+        <div class="skillBox">
+          Illustrator
+        </div>
+        <div style="clear: both"></div>
+
+        <img src="img/webp_school.jpg" alt="고교학점제 설명 사이트">
+
+        <p>
+          아기자기한 일러스트와 함께 고교학점제에 대한 정보들을 알려주는 정보전달용 사이트입니다. <br><br>
+          처음으로 HTML, CSS를 사용하여 만들어본 웹사이트입니다. 웹을 만들어내는 일의 즐거움을 처음으로 느껴 본 작업이었습니다.
+        </p>
+        <a href="https://github.com/doing-kim/school1"><div class="btn">Go to github</div></a>
+        <div style="clear: both"></div>
+
+      </div>
+      <div class="webProject">
+        <h3>2022</h3>
+        <h2 class="boxTitle">D-Day 계산기</h2>
+        <div class="skillBox">
+          HTML
+        </div>
+        <div class="skillBox">
+          CSS
+        </div>
+        <div class="skillBox">
+          Java Script
+        </div>
+
+        <div style="clear: both"></div>
+
+        <img src="img/webp_calculator.jpg" alt="디데이 계산기">
+
+        <p>
+          지정한 날짜와 날짜 사이의 날들을 자동으로 세어주고, 그 날들에서 주말이 얼마나 들었는지 계산해주는 편리한 계산기입니다.<br><br>HTML, CSS이외의 Java Script라는 새로운 언어를 사용해 볼 수 있는 귀한 경험이었습니다. 
+        </p>
+        <a href="https://github.com/doing-kim/school2"><div class="btn">Go to github</div></a>
+        <div style="clear: both"></div>
+
+      </div>
+    </div>
+
+    <!-- 연락처 -->
+    <div id="contact">
+      <h1>contact</h1>
+      <div class="contact">
+        <i class="bi bi-envelope"></i>
+        <h3>email : dlatmddl3@naver.com</h3>
+      </div>
+      <div class="contact">
+        <i class="bi bi-telephone"></i>
+        <h3>phone : 010-8131-5966</h3>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- 푸터 -->
+  <footer>
+    <a href="https://www.instagram.com/ibddoing/"><i class="bi bi-instagram" width="32" height="32"></i></a>
+    <p>2022 웹프로그래밍 기말과제 영상애니메이션학부 B893218 임승이<br>© 2022. Seung-yi Lim. All rights reserved.</p>
+  </footer>
+</body>
+</html>
